@@ -33,7 +33,7 @@ const NuevaCuenta = () => {
     if(mensaje) {
       showAlert(mensaje.msg, mensaje.category);
     }
-  }, [mensaje, autenticado, navigate, showAlert]);
+  }, [mensaje, autenticado]);
 
   const handleChange = (e) => {
     setUser({

@@ -10,7 +10,8 @@ const Navbar = () => {
 
   useEffect( () => {
     authUser();
-  }, [authUser]);
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <header className='app-header'>

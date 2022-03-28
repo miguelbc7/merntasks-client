@@ -9,7 +9,8 @@ const RutaPrivada = () => {
 
   useEffect(() => {
     authUser();
-  }, [authUser]);
+    // eslint-disable-next-line
+  }, []);
 
   return !autenticado && !cargando ? (<Navigate to="/" />) : (<Proyectos />);
 };

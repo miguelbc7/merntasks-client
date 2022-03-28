@@ -22,7 +22,7 @@ const ListadoProyectos = () => {
     }
 
     getProjects();
-  }, [mensaje, showAlert, getProjects]);
+  }, [mensaje]);
 
   // Revisar si proyectos tiene contenido
   if(!proyectos) return <p>No hay proyectos, comienza creando uno</p>;

@@ -22,6 +22,7 @@ const ListadoProyectos = () => {
     }
 
     getProjects();
+    // eslint-disable-next-line
   }, [mensaje]);
 
   // Revisar si proyectos tiene contenido

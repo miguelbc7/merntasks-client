@@ -31,6 +31,7 @@ const Login = () => {
     if(mensaje) {
       showAlert(mensaje.msg, mensaje.category);
     }
+    // eslint-disable-next-line
   }, [mensaje, autenticado]);
 
   const handleChange = (e) => {
